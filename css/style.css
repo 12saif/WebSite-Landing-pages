@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.paidd-15 {
+    padding-left: 40px;
+}
+
+.top-menu {
+    display: flex;
+    height: 80px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-menu button {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 50px;
+}
+
+.top-menu h3 {
+    padding-left: 20px;
+}
+
+.container .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+    background: rgb(206, 10, 10);
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+.container .row span {
+    padding-left: 20px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .row .fa-brands {
+    font-size: 35px;
+}
+
+.right-icon {
+    padding-right: 60px;
+}
+
+.right-icon a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+.image {
+    background-image: url(/WebSite/img/wp9268150-4k-jdm-desktop-wallpapers.jpg);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.image .row {
+    padding: 10% 10%;
+}
+
+.image .row h2 {
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image .row p {
+    width: 80%;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-break: anywhere;
+}
+
+.image .row button {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 25px;
+}
+
+
+/* .bg-color {
+    background-image: linear-gradient(#FFA384, black 70%);
+} */
+
+.support-top-wrapper {
+    display: flex;
+    max-width: 80%;
+    margin-left: 10%;
+    padding: 50px 0;
+}
+
+.support-top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20%;
+    width: 50%;
+}
+
+.support-top-left .detail-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.support-top-left .top-heading {
+    font-size: 40px;
+}
+
+.support-top-right {
+    width: 60%;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-area {
+    display: flex;
+    margin: 0px 8%;
+    max-width: 85%;
+    padding-bottom: 50px;
+}
+
+.column-main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.card {
+    background: black;
+    border-radius: 15px;
+    color: white;
+    height: 400px;
+}
+
+.column-main .card .square-number {
+    position: relative;
+    padding: 15px;
+    font-size: 40px;
+}
+
+.column-main .card .square-text {
+    position: relative;
+    display: flex;
+    padding: 80px 20% 0 30%;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.column-main p {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    line-break: anywhere;
+    /* color: white; */
+}
+
+.second-image-area {
+    background-image: url(/WebSite/img/pexels-fabiano-rodrigues-1662298.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    margin-bottom: 50px;
+    padding: 150px 150px 0 0;
+}
+
+.image-all-text {
+    display: flex;
+    min-height: 550px;
+    flex-direction: column;
+    align-items: flex-end;
+    /* padding: 150px 150px; */
+}
+
+.safe-heading {
+    color: white;
+    font-size: 45px;
+    line-height: 1.2;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 45%;
+    padding-bottom: 10px;
+}
+
+.safe-paragraph {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1;
+    text-align: right;
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+.second-image-area .image-all-text a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.main-contaner-shope {
+    display: flex;
+    flex-direction: column;
+    margin: 0 115px;
+}
+
+.heading-shope {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-product-text {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.shop-product-heading {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.main-shope-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.images img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.images h6,
+.images h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.images a {
+    margin-left: 37%;
+    text-decoration: none;
+    background: rgb(236, 53, 84);
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.view-all-product {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.view-all-product button {
+    color: white;
+    background: rgb(236, 53, 84);
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.bottom-card-area {
+    display: flex;
+    justify-content: center;
+    margin: 80px 8%;
+}
+
+.bottom-card-area .main-contant {
+    width: 70%;
+    height: 450px;
+    padding-top: 45px;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+}
+
+.main-contant .paragraf-2 {
+    height: 50px;
+    width: 320px;
+    line-break: anywhere;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.paragraf-2 h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.paragraf-2 p {
+    font-size: 18px;
+}
+
+.main-contant img {
+    position: absolute;
+    height: 50vh;
+    width: 35vw;
+    left: 120px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+/* footer */
+
+.top-main-footer {
+    display: flex;
+    align-items: center;
+    background: black;
+    height: 20vh;
+    color: white;
+}
+
+.left-icon-footer .fa-brands {
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+.left-icon-footer span {
+    font-size: 40px;
+    padding-left: 20px;
+    letter-spacing: 5px;
+}
+
+.right-icon-footer {
+    margin-left: 60%;
+    font-size: 40px;
+}
+
+.right-icon-footer i {
+    padding-left: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.small a {
+    text-decoration: underline;
+    color: rgb(230, 38, 102);
+}
